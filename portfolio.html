@@ -28,44 +28,50 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="container">
+      <div class="container flex-vh-centred">
         <!-- NAVIGATION -->
-        <nav class="header-nav">
-          <a class="logo clean-link" href="./index.html" lang="en"
+        <nav class="header-nav flex-vh-centred">
+          <a class="logo link-clean" href="./index.html" lang="en"
             ><span class="text-accent-light-color">Web</span>Studio</a
           >
-          <ul class="pages-list unmarked-list">
+          <ul class="list-pages list-unmarked flex-vh-centred">
             <li class="item studio-page">
-              <a class="clean-link interactive-link" href="./index.html"
+              <a class="link-clean link-interactive" href="./index.html"
                 >Студия</a
               >
             </li>
-            <li class="item portfolio-page">
-              <a
-                class="clean-link interactive-link text-accent-light-color"
-                href="./portfolio.html"
+
+            <li class="item portfolio-page text-accent-light-color">
+              <a class="link-clean link-interactive" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
             <li class="item contacts-page">
-              <a class="clean-link interactive-link" href="">Контакты</a>
+              <a class="link-clean link-interactive" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <!-- CONTACTS -->
-        <ul class="header-contacts unmarked-list">
+        <ul class="list-contacts list-unmarked flex-vh-centred">
           <li class="item">
             <a
-              class="mail-link clean-link interactive-link"
+              class="mail-link link-clean link-interactive"
               href="mailto:info@devstudio.com"
+            >
+              <svg width="16" height="12" class="icon">
+                <use href="./images/decoration/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
+
           <li class="item">
             <a
-              class="phone-link clean-link interactive-link"
+              class="phone-link link-clean link-interactive"
               href="tel:+380961111111"
+            >
+              <svg width="10" height="16" class="icon">
+                <use href="./images/decoration/icons.svg#phone"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -81,7 +87,7 @@
           <!-- HERO -->
           <h1 hidden>Портфолио</h1>
           <!-- filters -->
-          <ul class="filters-list unmarked-list">
+          <ul class="list-filters list-unmarked flex-h-centred">
             <li class="item filter-all">
               <button
                 id="all-filter-button"
@@ -117,12 +123,12 @@
             </li>
           </ul>
           <!-- Cards -->
-          <ul class="portfolio-cards unmarked-list">
+          <ul class="list-portfolio list-unmarked">
             <li class="card web-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/technocrack.jpg"
                     alt="Ноутбук с открытой страницой веб-сайта в браузере"
                     width="370"
@@ -136,10 +142,10 @@
               </a>
             </li>
             <li class="card design-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/basketball-players.jpg"
                     alt="Двое баскетболистов борются за мяч"
                     width="370"
@@ -155,10 +161,10 @@
               </a>
             </li>
             <li class="card app-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/seafood.jpg"
                     alt="Название-логотип ресторана на фоне силуэта рыбы"
                     width="370"
@@ -174,10 +180,10 @@
               </a>
             </li>
             <li class="card marketing-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/headphones.jpg"
                     alt="Чёрные наушники"
                     width="370"
@@ -191,10 +197,10 @@
               </a>
             </li>
             <li class="card app-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/boxes.jpg"
                     alt="Две коробки лежат на плоскости"
                     width="370"
@@ -208,10 +214,10 @@
               </a>
             </li>
             <li class="card web-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/no-borders.jpg"
                     alt="На мониторе отображается открытая страница веб-сайта"
                     width="370"
@@ -225,10 +231,10 @@
               </a>
             </li>
             <li class="card design-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/book.jpg"
                     alt="Разворот лежащей книги"
                     width="370"
@@ -244,10 +250,10 @@
               </a>
             </li>
             <li class="card marketing-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/tag.jpg"
                     alt="Висящая бирка с английской надписью чёрным шрифтом"
                     width="370"
@@ -261,10 +267,10 @@
               </a>
             </li>
             <li class="card app-card">
-              <a class="card-link clean-link" href="./">
+              <a class="card-link link-clean" href="./">
                 <div class="img-wrapper">
                   <img
-                    class="card-img"
+                    class="img-card"
                     src="./images/content/portfolio/growing-business.jpg"
                     alt="Человек работает в приложении за ноутбуком"
                     width="370"
@@ -285,37 +291,98 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <a class="logo clean-link" href="./index.html" lang="en"
-          ><span class="text-accent-light-color">Web</span
-          ><span class="text-accent-light">Studio</span></a
-        >
+        <div class="address-container">
+          <a class="logo link-clean" href="./index.html" lang="en"
+            ><span class="text-accent-light-color">Web</span
+            ><span class="text-accent-light">Studio</span></a
+          >
 
-        <address class="footer-address">
-          <ul class="addresses-list unmarked-list">
-            <li class="item address-geo">
+          <address class="address-footer">
+            <ul class="addresses-list list-unmarked">
+              <li class="item address-geo">
+                <a
+                  class="link-clean link-interactive text-accent-light"
+                  href="https://tinyurl.com/yckhjt74"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="item address-mail">
+                <a
+                  class="link-clean link-interactive"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="item address-phone">
+                <a class="link-clean link-interactive" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="follow-us-container">
+          <h2 class="subtitle">Присоединяйтесь</h2>
+          <ul class="list-socials list-unmarked">
+            <li class="item">
               <a
-                class="clean-link interactive-link text-accent-light"
-                href="https://tinyurl.com/yckhjt74"
+                href="https://www.instagram.com"
+                class="link-clean"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                г. Киев, пр-т Леси Украинки, 26
+                <svg class="icon" width="20" height="20">
+                  <use
+                    href="./images/decoration/icons.svg#logo-instagram"
+                  ></use>
+                </svg>
               </a>
             </li>
-            <li class="item address-mail">
+
+            <li class="item">
               <a
-                class="clean-link interactive-link"
-                href="mailto:info@example.com"
-                >info@example.com</a
+                href="https://www.twitter.com"
+                class="link-clean"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/decoration/icons.svg#logo-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item address-phone">
-              <a class="clean-link interactive-link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
+
+            <li class="item">
+              <a
+                href="https://www.facebook.com"
+                class="link-clean"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/decoration/icons.svg#logo-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="item">
+              <a
+                href="https://www.linkedin.com"
+                class="link-clean"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/decoration/icons.svg#logo-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
