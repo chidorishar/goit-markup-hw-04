@@ -485,7 +485,7 @@ img {
 .list-portfolio .card {
   margin-top: var(--items-default-margin);
   margin-left: var(--items-default-margin);
-  width: calc(100% / 3 - var(--items-default-margin));
+  flex-basis: calc(100% / 3 - var(--items-default-margin));
   max-width: max-content;
   min-width: min-content;
 }
