@@ -146,6 +146,7 @@ img {
 .list-socials {
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-right: -10px;
 }
 
 .list-socials .link-clean {
@@ -417,10 +418,6 @@ img {
 
 .card-person .description {
   margin-bottom: 16px;
-}
-
-.card-person .list-socials {
-  margin-right: -10px;
 }
 .card-person .list-socials .link-clean {
   color: var(--icons-logo-main-color);
